@@ -1,0 +1,26 @@
+{
+  "name": "oit/yii2-nestable",
+  "description": "Yii2 Nestable Widget",
+  "keywords": [
+    "codeup",
+    "yihai",
+    "orangeit",
+    "oit",
+    "yii2",
+    "framework",
+    "nestable"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Upik Saleh",
+      "email": "upxsal@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "codeup\\widgets\\nestable\\": "src"
+    }
+  }
+}
