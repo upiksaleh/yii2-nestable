@@ -27,4 +27,10 @@ class NestableAsset extends \yii\web\AssetBundle
     public $depends = [
         'yii\web\JqueryAsset'
     ];
+
+    public function init()
+    {
+        parent::init();
+        $this->publishOptions['forceCopy'] = true;
+    }
 }
